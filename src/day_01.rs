@@ -155,28 +155,28 @@ mod tests {
     #[test]
     fn test_solution_run_on_example_part1() {
         let solution = Solution {};
-        let res = solution.run(DialDirectionBuildType::Single, "./input/day_01_example");
+        let res = solution.run(DialDirectionBuildType::Single, "./input/day_01_example.txt");
         println!("Example result: {}", res);
     }
 
     #[test]
     fn test_solution_run_on_input_part1() {
         let solution = Solution {};
-        let res = solution.run(DialDirectionBuildType::Single, "./input/day_01");
+        let res = solution.run(DialDirectionBuildType::Single, "./input/day_01.txt");
         println!("Result: {}", res);
     }
 
     #[test]
     fn test_solution_run_on_example_part2() {
         let solution = Solution {};
-        let res = solution.run(DialDirectionBuildType::Explode, "./input/day_01_example");
+        let res = solution.run(DialDirectionBuildType::Explode, "./input/day_01_example.txt");
         println!("Example result part 2: {}", res);
     }
 
     #[test]
     fn test_solution_run_on_input_part2() {
         let solution = Solution {};
-        let res = solution.run(DialDirectionBuildType::Explode, "./input/day_01");
+        let res = solution.run(DialDirectionBuildType::Explode, "./input/day_01.txt");
         println!("Result part 2: {}", res);
     }
 
